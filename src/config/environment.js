@@ -1,5 +1,5 @@
 const environment = {
-  post: parseInt(process.env.PORT) || 8080,
+  port: parseInt(process.env.PORT) || 8080,
   nodeEnv: process.env.NODE_ENV || "production",
   saltRounds: parseInt(process.env.SALT_ROUNDS) || 10,
   JwtAccessTokenSecret:
